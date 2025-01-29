@@ -1,25 +1,13 @@
-// import Avatar from '../Resources/Avatar.png';
-import './App';
+import './App.css';
+import avatar from '../Resources/Avatar.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <img src='../Resources/Avatar.png' className="App-logo" alt="avatar" />
-        <p>
-          My New app
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <img className='avatar' src={avatar} alt='Avatar' />
+      </div> 
+    </>
   );
 }
 
