@@ -1,15 +1,4 @@
 .app {
-  diplsay: flex;
-  margin: 200px;
-  
+
 }
 
-.avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
