@@ -1,0 +1,11 @@
+.Track{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem 0;
+    padding: 0 1rem;
+    background-color: var(--main-color);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+}

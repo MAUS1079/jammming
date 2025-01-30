@@ -1,7 +1,7 @@
-import avatar from '../../Resources/Avatar.png';
-import styles from './Header.module.css';
+import avatar from '../../resources/Avatar.png';
+import styles from './SearchBar.module.css';
 
-export default function Header() {
+export default function SearchBar() {
     return (
         <header>
             <img className={styles.avatar} src={avatar} alt='Avatar' />

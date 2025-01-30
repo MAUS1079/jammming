@@ -1,4 +1,4 @@
-.SearchResults {
+.Playlist {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.SearchResults h1 {
+.Playlist h1 {
   font-size: 36px;
   font-weight: 400;
   margin: 20px;
