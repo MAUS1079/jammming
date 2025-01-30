@@ -1,11 +1,11 @@
 import avatar from '../../Resources/Avatar.png';
-import './Header.component.css';
+import styles from './Header.module.css';
 
 export default function Header() {
     return (
         <header>
-            <img className='avatar' src={avatar} alt='Avatar' />
-            <div className='searchBar'>
+            <img className={styles.avatar} src={avatar} alt='Avatar' />
+            <div className={styles.searchbar}>
                 <input type='text' placeholder='Search for Songs' />
                 <button>Search</button>
             </div>
