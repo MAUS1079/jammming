@@ -1,4 +1,4 @@
-import avatar from '../../resources/Avatar.png';
+import avatar from '../../resources/img/Avatar.png';
 import styles from './SearchBar.module.css';
 
 export default function SearchBar() {
